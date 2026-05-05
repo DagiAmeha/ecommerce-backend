@@ -11,7 +11,7 @@ import { sendSuccess } from "./utils/api-response";
 
 export const app = express();
 
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 
 app.get("/health", (_req, res) => {
